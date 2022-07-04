@@ -1,0 +1,6 @@
+---
+- hosts: master
+  become: yes  
+  roles: 
+    - install-apache
+    - install-php
